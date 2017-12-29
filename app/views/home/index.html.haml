@@ -1,0 +1,35 @@
+/ Navigation
+%nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
+  .container
+    %a.navbar-brand{:href => "#"} RubyGems
+    %button.navbar-toggler{"aria-controls" => "navbarResponsive", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarResponsive", "data-toggle" => "collapse", :type => "button"}
+      %span.navbar-toggler-icon
+    #navbarResponsive.collapse.navbar-collapse
+      %ul.navbar-nav.ml-auto
+        %li.nav-item.active
+          %a.nav-link{:href => "#"}
+            Exception Notification
+            %span.sr-only (current)
+        %li.nav-item
+          %a.nav-link{ href: letter_opener_web_path, target: "_blank" } Mailbox
+
+/ Page Content
+.container
+  .row
+    .col-lg-4.text-center
+      %h1.mt-5 Demo
+    .col-lg-8
+      %br
+      %p.lead 
+        Click the button below and check the letter opener web to see the email notification.
+        %br
+        %a{href: @github_link}=@github_link
+      %ul.list-unstyled
+        %li Version: v4.2.2
+        %li Last Updated: 30th Dec 2017 
+  .row
+    .col-lg-12
+      .card
+        .card-block.text-center.align-middle{style: "padding:20px;min-height:200px"}   
+          %br 
+          =link_to "Error Page", error_path, class: "btn btn-primary"
