@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Demo is showing the use of Exception Notification.
+It is accompanied with the article I wrote in [Medum][MED] introducing the use of RubyGems.
 
-Things you may want to cover:
+The live demo is [here][DEMO].
 
-* Ruby version
+[MED]: <https://medium.com/實用的rubygems/exception-notification-以電郵及slack通知開發者系統有錯誤-8ba41589cffa>
+[DEMO]: <https://demo-exception-notification.herokuapp.com>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
