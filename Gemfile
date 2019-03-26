@@ -1,4 +1,4 @@
-ruby '2.5.1'
+ruby '2.6.2'
 
 source 'https://rubygems.org'
 
@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails'
 gem 'hamlit'
-gem 'bootstrap', '>= 4.1.2'
+gem 'bootstrap', '~> 4.3.1'
 gem "lograge"
 gem 'exception_notification'
 gem 'letter_opener_web'
